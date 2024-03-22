@@ -1,0 +1,120 @@
+.Explore_Menu_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.Explore_Menu {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    background: var(--background-3);
+}
+.Explore_Menu h1 {
+    color: var(--secondary-color);
+    font-family: "Rampart One", sans-serif;
+    text-align: center;
+    margin: 5rem;
+    font-size: 3rem;
+}
+.Explore_Menu h1 span {
+    color: var(--primary-color);
+    font-family: "Rampart One", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.Explore_Menu img {
+    width: 200px;
+    height: 100px;
+}
+.Explore_menu_img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.Explore_Menu_card{
+    background: white;
+    padding: 2rem;
+    border-bottom-right-radius: 32px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.5s ease-in;
+}
+.Explore_Menu_card:hover{
+    color: white;
+    background: var(--background-2);
+}
+.Explore_Menu_card h2 {
+    font-family: "poppins", sans-serif;
+    color:rgb(101, 44, 10);
+    font-weight: 800;
+}
+.price {
+    font-family: "poppins", sans-serif;
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+}
+.explore_disc {
+    color: var(--color2);
+    font-family: "poppins", sans-serif;
+    font-size: 0.80rem;
+}
+.orderNow3 {
+    background-color: var(--primary-color);
+    color: var(--background-1);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    border-bottom-right-radius: 32px;
+    position: absolute;
+}
+.Explore_menu_btn {
+    width: 300px;
+    padding: 1rem 1rem;
+    margin: 3rem auto;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 32px;
+    align-items: center;
+    align-items: center;
+    position: relative;
+}
+.greaterthan {
+    position: absolute;
+    color: var(--primary-color);
+    font-family: "poppins", sans-serif;
+    font-size: 1.8rem;
+    text-align: right;
+    right: 30px;
+    font-weight: 600;
+    color: white;
+    animation: greaterthan 1s infinite;
+}
+@keyframes greaterthan {
+    0% {
+        right: 30px;
+    } 
+    50% {
+        right: 15px;
+    }
+    100% {
+        right: 30px;
+    }
+}

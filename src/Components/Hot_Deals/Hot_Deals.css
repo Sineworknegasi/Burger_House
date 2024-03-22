@@ -1,0 +1,53 @@
+.hotDeals {
+    display: flex;
+    flex-direction: column;
+}
+.hotDeals h1 {
+    color: var(--secondary-color);
+    font-family: "Rampart One", sans-serif;
+    text-align: center;
+    margin: 5rem;
+    font-size: 3rem;
+}
+.hotDeals h1 span {
+    color: var(--primary-color);
+    font-family: "Rampart One", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+.hotdeal_card {
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    gap: 2rem;
+    align-items: center;
+}
+.discount {
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+    background:var(--primary-color);
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+    left: 12rem;
+    top: 0;
+    background: linear-gradient(to right, red, black);
+}
+.hotdeal_card img {
+    width: 500px;
+    height: 500px;
+}
+.hotdeals_disc h2 {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+}
+.hotdeals_disc h3 {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 5px black;
+}
+.hotdeals_disc p {
+    color: var(--color2);
+}
+

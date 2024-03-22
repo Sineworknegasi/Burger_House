@@ -1,0 +1,73 @@
+.Home_section {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to right, var(--background-1) 70%, var(--secondary-color) 50%);
+    height: 100vh;
+}
+.left_home {
+    width: 40%;
+}
+.left_home h2 {
+    font-family:"Rampart One", sans-serif;
+    font-size: 2rem;
+}
+.left_home h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.left_home h1 span {
+    color: var(--primary-color);
+}
+.left_home p {
+    font-size: 0.8rem;
+    color: var(--color2);
+    font-family: "Poppins", sans-serif;
+    margin: 1rem 0;
+}
+.order_now2 {
+    background-color: var(--secondary-color);
+    color: var(--background-1);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: rgb(251, 242, 231) 10px solid;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+.left_home button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-1);
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: left;
+    margin-top: 3rem;
+}
+.social-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--secondary-color);
+}
+/* now we are going to style the home image */
+.Home_img {
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(to right, var(--primary-color) 20%, var(--secondary-color));
+    box-shadow: 0 0 50px 50px var(--secondary-color);
+}
