@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
             <ul id="navlinks">
             <li><a href="#page">Menu</a></li>
-            <li><a href="#page"> About</a></li>
+            <li><a href="#page"> HotDeals</a></li>
             <li><a href='#page'>Services</a></li>
             <li><a href='#page'>Contact</a></li>
             </ul>
