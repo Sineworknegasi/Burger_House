@@ -1,0 +1,73 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Contact_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    border-radius: 15px;
+    align-items: center;
+    background: linear-gradient( to right, white 60%, var(--primary-color)15%);
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
+.Contact h1:first-of-type {
+    color: var(--secondary-color);
+    font-family: "Rampart One", sans-serif;
+    text-align: center;
+    margin: 5rem;
+    font-size: 3rem;
+}
+.Contact h1 span {
+    color: var(--primary-color);
+    font-family: "Rampart One", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contact_form h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+.contact_form input {
+    width:500px;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px var(--primary-color) solid;
+}
+.contact_form button {
+    background-color: var(--primary-color);
+    color: var(--background-1);
+    font-weight: bolder;
+    width: 200px;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px var(--primary-color) solid;
+}
+.contact_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 2rem;
+}
+.contact_us p {
+    display: flex;
+    font-size: 1.25rem;
+    color: white;
+    gap: 1rem;
+    align-items: center;
+}
+.contact_us a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+.contact_us a:hover {
+    color: black;
+}

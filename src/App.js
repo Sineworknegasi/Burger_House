@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
 import Hotdeals from './Components/Hot_Deals/Hotdeals';
 import Menu from './Components/Menu/Menu';
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Menu/>
       <Hotdeals/>
+      <Contact/>
     </div>
   );
 }
