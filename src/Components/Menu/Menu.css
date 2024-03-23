@@ -118,3 +118,76 @@
         right: 30px;
     }
 }
+
+/**make it responsive to the screen size */
+@media screen and (max-width: 768px) {
+    .Explore_Menu_container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .Explore_Menu {
+        padding: 2rem;
+    }
+    .Explore_Menu h1 {
+        font-size: 2rem;
+    }
+    .Explore_Menu img {
+        width: 100px;
+        height: 50px;
+    }
+    .Explore_Menu_card {
+        padding: 1rem;
+    }
+    .price {
+        font-size: 1rem;
+    }
+    .explore_disc {
+        font-size: 0.8rem;
+    }
+    .orderNow3 {
+        font-size: 1rem;
+    }
+    .Explore_menu_btn {
+        width: 200px;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .greaterthan {
+        font-size: 1.5rem;
+    }  
+}
+
+@media screen and (max-width: 425px){
+    .Explore_Menu_container {
+        grid-template-columns: 1fr;
+    }
+    .Explore_Menu {
+        padding: 2rem;
+    }
+    .Explore_Menu h1 {
+        font-size: 2rem;
+    }
+    .Explore_Menu img {
+        width: 100px;
+        height: 50px;
+    }
+    .Explore_Menu_card {
+        padding: 1rem;
+    }
+    .price {
+        font-size: 1rem;
+    }
+    .explore_disc {
+        font-size: 0.8rem;
+    }
+    .orderNow3 {
+        font-size: 1rem;
+    }
+    .Explore_menu_btn {
+        width: 200px;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .greaterthan {
+        font-size: 1.5rem;
+    }  
+}

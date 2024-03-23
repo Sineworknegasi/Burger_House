@@ -72,3 +72,21 @@
     background: linear-gradient(to right, var(--primary-color) 20%, var(--secondary-color));
     box-shadow: 0 0 50px 50px var(--secondary-color);
 }
+
+@media screen and (max-width: 768px) {
+    .Home_section {
+        flex-direction: row;
+        width: 1fr;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+    .left_home {
+        width: 80%;
+        text-align: center;
+    }
+    .Home_img {
+        width: 300px;
+        height: 300px;
+    }
+    
+}
