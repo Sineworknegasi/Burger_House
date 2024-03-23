@@ -33,10 +33,10 @@ const Navbar = () => {
             <a href='/'>Burger House</a>
         </div>
             <ul id="navlinks">
-            <li><a href="#page">Menu</a></li>
-            <li><a href="#page"> HotDeals</a></li>
-            <li><a href='#page'>Services</a></li>
-            <li><a href='#page'>Contact</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#hotdeals"> HotDeals</a></li>
+            <li><a href='#contact'>Contact Us</a></li>
+            <li><a href='#page'>+251966855900</a></li>
             </ul>
 
         <div className='navbar-buttons'>

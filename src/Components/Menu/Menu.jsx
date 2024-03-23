@@ -4,7 +4,7 @@ import { TbMathGreater } from "react-icons/tb";
 
 const Menu = () => {
   return (
-    <section className="Explore_Menu container">
+    <section className="Explore_Menu container" id="menu">
       <h1>
         Explore<span>Menu</span>
       </h1>

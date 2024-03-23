@@ -3,7 +3,7 @@ import "./Hot_Deals.css";
 
 const Hot_Deals = () => {
   return (
-    <section className="hotDeals container">
+    <section className="hotDeals container" id="hotdeals">
       <h1>
         Hot<span>Deals</span>
       </h1>
