@@ -1,53 +1,69 @@
-import React from 'react'
-import { RiMenu3Line } from "react-icons/ri";
+import React, { useState } from "react";
+import { RiMenu3Fill } from "react-icons/ri";
+import { FaHome } from "react-icons/fa";
+import { MdMenuBook } from "react-icons/md";
+import { IoFastFood } from "react-icons/io5";
+import { IoIosContact } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
+import { MdMessage, MdHomeRepairService } from "react-icons/md";
 import './Navbar.css'
-const Mobilemenu = document.getElementById('btn_menu');
-const MobileClose = document.getElementById('btn_close');
-const navlinks = document.getElementById('navlinks');
-const navbar = document.getElementById('navbar');
-const toggle = document.getElementById('toggles');
-
-const menu = () => {
-  Mobilemenu.style= 'display: none';
-  MobileClose.style = 'display: block';
-  navlinks.style.display = 'none';
-  navbar.style.height = 'auto';
-  console.log('menu clicked');
-}
-const close = () => {
-  Mobilemenu.style= 'display:block';
-  MobileClose.style = 'display: none';
-  navlinks.style = 'display: flex';
-  navbar.style.height = '100%';
-  console.log('close');
-}
-
-
-
 
 const Navbar = () => {
-  return (
-    <section className='navbar container' id="navbar">
-        <div className='navbar-logo'>
-            <a href='/'>Burger House</a>
-        </div>
-            <ul id="navlinks">
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#hotdeals"> HotDeals</a></li>
-            <li><a href='#contact'>Contact Us</a></li>
-            <li><a href='#page'>+251966855900</a></li>
-            </ul>
+    /*======TOggle Menu ======== */
+    const [Toggle, ShowMenu] = useState(false);
 
-        <div className='navbar-buttons'>
-            <button className='order_now'>Order Now</button>
+
+
+  return (
+    <header className="header">
+      <nav className="nav container">
+        <a href="#Home" className="nav__logo">
+          Burger House
+        </a>
+
+        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+          <ul className="nav__list grid">
+            <li className="nav__item ">
+              <a href="#Home" className="nav__link active-link">
+                <FaHome class=" nav__icon"></FaHome>
+                Home
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="#menu" className="nav__link">
+                <MdMenuBook class="nav__icon"></MdMenuBook>
+                Menu
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="#Hotdeals" className="nav__link">
+                <IoFastFood class=" nav__icon"></IoFastFood>
+                HotDeals
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="#services" className="nav__link">
+              <MdHomeRepairService class="uil uil-briefcase-alt nav__icon"></MdHomeRepairService>
+                Services
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="#Contact" className="nav__link">
+                <MdMessage class="uil uil-message nav__icon"></MdMessage>
+                Contact
+              </a>
+            </li>
+          </ul>
+
+          <IoMdClose class="nav__icon nav__close" onClick={() => ShowMenu(!Toggle)}></IoMdClose>
         </div>
-        <div className='toggle_menu' id='toggles' >
-          <RiMenu3Line className='menu' id="btn_menu" onClick={menu}></RiMenu3Line>
-          <IoMdClose className='close' id="btn_close" onClick={close}></IoMdClose>
+
+        <div className="nav__toggle" onClick={() => ShowMenu(!Toggle)}>
+            <RiMenu3Fill className="nav__icon"></RiMenu3Fill>
         </div>
-    </section>
-  )
-}
+      </nav>
+    </header>
+  );
+};
 
 export default Navbar

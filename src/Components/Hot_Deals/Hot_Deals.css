@@ -1,6 +1,7 @@
 .hotDeals {
     display: flex;
     flex-direction: column;
+    padding: 0 5rem;
 }
 .hotDeals h1 {
     color: var(--secondary-color);
@@ -63,15 +64,13 @@
     margin-bottom: 3rem;
 }
 .Why_you_should_try img {
-    rotate: -90deg;
-    position: absolute;
     top: 17rem;
     width: 300px;
     height: 500px;
 }
 .why_try {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   display: flex;
+   flex-direction: row;
    gap: 1rem;
    font-size: 1.5rem;
    font-weight: bolder;
@@ -81,13 +80,17 @@
     color: var(--primary-color);
     font-size: 1rem;
     font-weight: bolder;
-    rotate: -45deg;
+}
+.p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .Customer_reviews{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20rem;
+    margin-top: 2rem;
 }
 .Customer_review {
     display: grid;
@@ -145,41 +148,110 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hotdeal_card {
-        flex-direction: column;
+    .hotDeals {
+        padding: 0;
     }
-    .discount {
-        left: 0;
-        top: 0;
+    .hotDeals h1 span, .hotDeals h1 {
+         font-size: 2rem;
+        text-align: center;
+    }
+    .hotdeal_card{
+         flex-direction: column;
     }
     .hotdeal_card img {
         width: 300px;
         height: 300px;
     }
-    .Why_you_should_try img {
-        top: 10rem;
-        width: 200px;
-        height: 300px;
+    .discount {
+         left: 0;
+         top: 0;
+         font-size: 1.5rem;
+    }
+    .hotdeals_disc h2, .hotdeals_disc h3 {
+        font-size: 2.5rem;
+    }
+    .Customer_review {
+         grid-template-columns: 1fr;
+    }
+    .Why_you_should_try {
+         flex-direction: column;
+    }
+    .Why_you_should_try h1, .Why_you_should_try h1 span {
+         font-size: 2rem;
+         margin: 1.2rem;
     }
     .Why_you_should_try h2 {
-        font-size: 2rem;
+         font-size: 2rem;
+         margin:1rem;
     }
     .why_try {
-        grid-template-columns: 1fr;
+         display: flex;
+         flex-direction: row;
+         rotate: 0deg;
+        padding: 20px;
     }
-    .Customer_reviews {
-        margin-top: 10rem;
+    .why_try .p {
+         font-size: 1rem;
+         font-weight: bolder;
+         gap: 1rem;
+         flex-wrap: wrap;
     }
-    .customer_card img {
-        width: 30px;
-        height: 30px;
-        rotate: 0deg;
+    .Why_you_should_try img {
+         width: 200px;
+         height: 200px;
+         rotate: 0deg;
     }
-    .customer_disc h2 {
-        font-size: 1rem;
+    .price {
+        margin: 1rem;
     }
-    .customer_disc p {
-        font-size: 0.5rem;
+    .Customer_review {
+        padding: 20px;
     }
-    
+    .customer_card {
+        flex-direction: column;
+        width: 100%;
+    }
 }
+
+@media screen and (max-width: 425px) {
+    .why_try {
+        flex-direction: column;
+    }
+    .why_try .p {
+        text-align: center;
+    }
+    .img {
+        align-items: center;
+    }
+    .hotdeal_card img {
+        width: 200px;
+        height: 200px;
+    }
+    .discount {
+        font-size: 0.5rem;
+        top: 2rem;
+        left: 2rem;
+    }
+    .hotdeals_disc {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .hotdeals_disc h2, .hotdeals_disc h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hotdeals_disc p {
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+    .order_now2 {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .hotDeals h1 {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+} 

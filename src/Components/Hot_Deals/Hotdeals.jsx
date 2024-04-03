@@ -37,15 +37,19 @@ const Hot_Deals = () => {
         </h1>
         <h2>Because</h2>
         <div className="why_try">
+          <div className="p">
           <p>Best Quality</p>
           <p>Natural Ingriedient</p>
           <p>Fast Delivery</p>
           <p>Huge quanitity</p>
-        </div>
-        <img
+          </div>
+          <div className="img">
+          <img
           src="https://restaurantanalyticshub.com/wp-content/themes/RAH/images/burger.png"
           alt=""
         />
+          </div>
+        </div>
       </div>
       <div className="Customer_reviews">
         <h1>

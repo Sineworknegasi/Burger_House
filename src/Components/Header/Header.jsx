@@ -4,7 +4,7 @@ import { FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <section className='Home_section container'>
+    <section className='Home_section'>
         <div className='left_home'>
             <h2>Try Our New</h2>
             <h1><span>Cheezy</span> Bluster</h1>
