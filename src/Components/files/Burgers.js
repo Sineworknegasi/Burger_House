@@ -23,7 +23,9 @@ const Burgers = [
                 "postcode": "SW4 0BD",
                 "country": "United Kingdom"
             }
-        ]
+        ],
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
+
     },
     {
         "id": 1,
@@ -46,6 +48,8 @@ const Burgers = [
                 "country": "United Kingdom"
             }
         ]
+        ,
+        "image": "https://th.bing.com/th/id/R.f0c42b344c391d9d4ba3eb06d925c07d?rik=b7Getp9CNyHqng&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fHamburger-PNG-File.png&ehk=4zOajPzQNJsWJdEgCPsT6H6ps1LjJf0QS8vthW%2bKcLA%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         "id": 2,
@@ -75,6 +79,8 @@ const Burgers = [
                 "country": "Bikini Bottom, Pacific Ocean"
             }
         ]
+        ,
+        "image": "https://static.vecteezy.com/system/resources/previews/021/952/459/original/free-tasty-hamburger-on-transparent-background-free-png.png"
     },
     {
         "id": 3,
@@ -100,6 +106,8 @@ const Burgers = [
                 "country": "United States"
             }
         ]
+        ,
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
     },
     {
         "id": 4,
@@ -128,6 +136,8 @@ const Burgers = [
                 "country": "Sweden"
             }
         ]
+        ,
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
     },
     {
         "id": 5,
@@ -152,7 +162,8 @@ const Burgers = [
                 "postcode": "20144",
                 "country": "Italy"
             }
-        ]
+        ],
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
     },
     {
         "id": 6,
@@ -175,6 +186,8 @@ const Burgers = [
                 "country": "United States"
             }
         ]
+        ,
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
     },
     {
         "id": 7,
@@ -206,7 +219,8 @@ const Burgers = [
                 "postcode": "10435",
                 "country": "Germany"
             }
-        ]
+        ],
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
     },
     {
         "id": 8,
@@ -231,7 +245,14 @@ const Burgers = [
                 "postcode": "",
                 "country": "India"
             }
-        ]
+        ],
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
+    },
+    {
+        "id": 9,
+        "name": "Vegetarian Burger (Indian Style)",
+        "description": "With summer around the corner, I had to share a vegetarian burger recipe with you guys.",
+        "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
     },
    
 ]

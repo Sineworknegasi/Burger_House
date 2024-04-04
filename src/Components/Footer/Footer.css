@@ -1,10 +1,10 @@
+
 .Footer {
-    background-color: black;
+    background: black;
     padding: 5rem 0;
     text-align: center;
     color: #6c757d;
     font-size: 14px;
-    margin-top: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -12,6 +12,8 @@
     line-height: 60px;
     border-top: 1px solid #e9ecef;
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+
 }
 .Footer h1 {
     color:var(--secondary-color);
@@ -45,4 +47,13 @@
 }
 .Footer p:last-of-type span {
     color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+    }
 }

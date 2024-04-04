@@ -8,14 +8,14 @@ const Menu =  Burgers.map((menu) => {
           <h2>{menu.name}</h2>
           <div className="Explore_menu_img">
             <img
-              src="https://th.bing.com/th/id/R.abb18eea3fe18e97c4d5e3e7aae91e23?rik=fER1ykCMrCdPqQ&pid=ImgRaw&r=0"
+              src={menu.image}
               alt="Explore_img"
             />
             <p className="explore_disc">
               {menu.description}
             </p>
           </div>
-          <p className="price">$12.66</p>
+          <p className="price">350 birr</p>
           <button className="orderNow3">Order Now</button>
         </div>  
   )

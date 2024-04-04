@@ -31,7 +31,7 @@ const Hot_Deals = () => {
           <button className="order_now2">Visit Now</button>
         </div>
       </div>
-      <div className="Why_you_should_try">
+      <div className="Why_you_should_try" id="service">
         <h1>
           Why you should <span>Try ?</span>
         </h1>

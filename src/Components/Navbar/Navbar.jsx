@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item ">
-              <a href="#Home" className="nav__link active-link">
+              <a href="/" className="nav__link active-link">
                 <FaHome class=" nav__icon"></FaHome>
                 Home
               </a>
@@ -36,19 +36,19 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#Hotdeals" className="nav__link">
+              <a href="#hotdeals" className="nav__link">
                 <IoFastFood class=" nav__icon"></IoFastFood>
                 HotDeals
               </a>
             </li>
             <li className="nav__item">
-              <a href="#services" className="nav__link">
+              <a href="#service" className="nav__link">
               <MdHomeRepairService class="uil uil-briefcase-alt nav__icon"></MdHomeRepairService>
                 Services
               </a>
             </li>
             <li className="nav__item">
-              <a href="#Contact" className="nav__link">
+              <a href="#contact" className="nav__link">
                 <MdMessage class="uil uil-message nav__icon"></MdMessage>
                 Contact
               </a>

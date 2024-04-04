@@ -14,7 +14,9 @@ function App() {
         <Header/>
         <Menus/>
         <Hotdeals/>
+        <Contact/>
       </div>
+      <Footer/>
     </div>
   );
 }
